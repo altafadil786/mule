@@ -2,4 +2,8 @@
 
 <mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd"></mule>
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="cicdFlow" doc:id="9c37e345-d515-4134-978c-48e95b894e8e" >
+		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="1e66ab57-05fd-409b-acf4-bfbb60184fbd" />
+	</flow>
+</mule>
